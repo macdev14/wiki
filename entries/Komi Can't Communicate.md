@@ -1,0 +1,3 @@
+<h1>Komi Can't Communicate</h1>
+<br>
+Komi Can't Communicate (Japanese: 古見さんは、コミュ症です。, Hepburn: Komi-san wa, Komyushō Desu., "Komi Has a Communication Disorder.") is a Japanese manga series written and illustrated by Tomohito Oda. It has been serialized in Shogakukan's shōnen manga magazine Weekly Shōnen Sunday since May 2016, with its chapters collected in twenty-five tankōbon volumes as of April 2022. The series is licensed in North America by Viz Media.

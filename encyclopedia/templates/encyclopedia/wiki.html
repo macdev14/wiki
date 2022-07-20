@@ -1,0 +1,32 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia 
+{% endblock %}
+
+{% block body %}
+  
+<div class="container" style="margin-left:0">
+    {% if edit %}
+  
+
+    <form action="{% url 'wikiEditPage' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+  
+    {%else%}
+   
+    <form action="{% url 'wikiNewPage' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+   
+    {% endif %}
+    
+</div>
+  
+
+{% endblock %}
